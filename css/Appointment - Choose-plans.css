@@ -1,0 +1,323 @@
+
+
+@import url(../css/font.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* header css code */
+header nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px 32px;
+}
+
+nav .yazilar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+nav .yazilar p:nth-child(1){
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #252525;
+    padding-bottom: 5px;
+}
+
+nav .yazilar p:nth-child(2){
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #848B98;
+    
+}
+
+
+
+header{
+    position: relative;
+}
+
+
+header .xett{
+    border-bottom: 1px solid #4CB147;
+    width: 670px;
+}
+
+
+header .xett .ici-yasil1{
+    position: absolute;
+    top: 87%;
+    left: 18%;
+}
+
+header .xett .ici-yasil2{
+    position: absolute;
+    top: 87%;
+    left: 34%;
+}
+
+
+header .xett .ici-bos3{
+    position: absolute;
+    top: 87%;
+    left: 43%;
+}
+
+
+
+
+
+
+
+.xs-icon{
+    position: absolute;
+    top: 23%;
+    right: 2%;
+}
+
+/* header css code */
+
+
+
+
+
+
+
+/* info section css code */
+
+
+
+.info{
+    background-color:#FBFBFC;
+    height: 1059px;
+}
+
+
+.info .umumi{
+    width: 556px;
+    height: 485px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 30%;
+}
+
+
+.umumi .basliq{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EDF0F4;
+}
+
+.umumi .basliq .shekil{
+    padding:24px 32px ;
+}
+
+.umumi .basliq .textler1 p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #848B98;
+}
+
+.umumi .basliq .textler1 h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+}
+
+
+
+.umumi h4{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 24px 32px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+    margin-bottom: -40px;
+}
+
+
+
+.checks{
+    padding: 24px 32px;
+}
+
+.checkbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    user-select: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    border: 1px solid #EDF0F4;
+    width: 492px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 16px;
+    
+}
+
+.checkbox p{
+    padding: 8px;
+}
+
+.checkbox input {
+    position: absolute;
+    width: 0;
+    left: 50px;
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox .checkmark {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 3px;
+    outline: 1px solid #acacac;
+    transition: all 0.2s ease;
+}
+
+.checkbox:hover .checkmark {
+    background: #f4f4f5;
+    transition: all 0.2s ease;
+}
+
+.checkbox input:checked ~.checkmark {
+    background: #4CB147;
+    outline: 1px solid #4CB147;
+}
+
+.checkbox input[type="radio"] ~ .checkmark {
+    border-radius: 50%;
+}
+
+.checkbox .checkmark::after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 50%;
+    top: 40%;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.checkbox input:checked~.checkmark::after {
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+
+
+.checkbox .check-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.checkbox .check-text p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+}
+
+
+.checkbox .check-text span{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+  
+    
+}
+
+.checkbox .check-text span::after{
+    content: 'AZN';
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    top: -3%;
+    right: 8%;
+    color: #848B98;
+    
+}
+
+
+.checks a{
+    padding: 12px 85px;
+    border: 1px solid #4CB147;
+    background-color: #4CB147;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+    border-radius: 8px;
+    margin-top: 24px;
+    display: inline-block;
+    text-decoration: none;
+    width: 492px;
+    height: 48px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+.info .sagC-icon{
+    position: absolute;
+    top: 16%;
+    left: 27%;
+    cursor: pointer;
+}
+
+
+.info .solC-icon{
+    position: absolute;
+    top: 16%;
+    right: 30%;
+    cursor: pointer;
+}
+
+
+
+
+
+/* info section css code */

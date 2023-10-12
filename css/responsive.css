@@ -1,0 +1,177 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* 
+
+.boxes{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.boxes .box1{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    margin-left: 8px;
+}
+
+.box1 p{
+    font-size: 20px;
+    line-height: 200px;
+    text-align: center;
+}
+
+
+@media(max-width:576px){
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .boxes .box1{
+        margin-bottom: 8px;
+    }
+}
+
+
+@media(max-width:992px) {
+  
+    .boxes{
+        flex-wrap: wrap;
+    }
+
+
+
+   .boxes .box1{
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+   }
+} */
+
+/* .inner{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+
+.inner p{
+    font-size: 20px;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    line-height: 200px;
+   
+}
+
+
+@media(max-width:576px){
+    .inner{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media() */
+
+
+
+
+
+/* *owl-carusel css code */
+.user-item{
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+
+
+.user-item .user-img{
+    padding: 24px 24px 12px 24px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+
+ .user-item .user-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+   
+}
+
+.user-item .user-img img:hover{
+    transform: scale(2);
+    cursor: pointer;
+   
+}
+
+
+.user-item .user-text h1{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Arial';
+    padding: 15px;
+
+}
+
+
+.user-item .user-text p{
+    
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Arial';
+    padding: 15px;
+    
+
+}
+
+
+.owl-nav button img{
+    width: 42px;
+    height: 42px;
+}
+
+.owl-nav .owl-next img{
+    transform: rotate(180deg);
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    left:3%;
+    top: 29%;
+}
+
+
+.owl-nav .owl-next{
+    position: absolute;
+    right: 10%;
+    top: 29%;
+}
+
+
+/* *owl-carusel css code */
+
+

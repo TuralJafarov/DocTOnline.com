@@ -1,0 +1,339 @@
+
+
+@import url(../css/font.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* header css code */
+
+
+header{
+    position: relative;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px 32px;
+}
+
+nav .yazilar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+nav .yazilar p:nth-child(1){
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #4CB147;
+    padding-bottom: 5px;
+}
+
+nav .yazilar p:nth-child(2){
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #848B98;
+    
+}
+
+
+
+
+.xs-icon{
+    position: absolute;
+    top: 23%;
+    right: 2%;
+}
+
+
+header .xett{
+    border-bottom: 1px solid #4CB147;
+    width: 270px; 
+  
+}
+
+header .xett .bir-daire{
+    position: absolute;
+    top: 85%;
+    left: 18%;
+}
+
+
+/* header css code */
+
+
+
+
+
+
+
+
+/* cerrah section css code */
+
+
+.info{
+    background-color:#FBFBFC;
+    height: 1059px;
+}
+
+
+.info .umumi{
+    width: 556px;
+    height: 715px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 30%;
+}
+
+
+.umumi .basliq{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EDF0F4;
+}
+
+.umumi .basliq .shekil{
+    padding:24px 32px ;
+}
+
+.umumi .basliq .textler p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #848B98;
+}
+
+.umumi .basliq .textler h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+}
+
+
+
+.melumat{
+    padding: 24px 32px;
+}
+
+
+
+
+
+.melumat .gorus{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+ .melumat .gorus .birinci-gorus{
+    width: 242px;
+    height: 56px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 6px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+ .melumat .gorus .birinci-gorus p{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'HRMedium';
+}
+
+
+
+
+ .melumat .gorus .ikinci-gorus{
+    width: 242px;
+    height: 56px;
+    border: 1px solid #F2FAF2;
+    background-color:#F2FAF2;
+    border-radius: 8px;
+    padding: 6px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .melumat .gorus .ikinci-gorus p{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'HRMedium';
+}
+
+
+.checkbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    user-select: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    border: 1px solid #EDF0F4;
+    width: 492px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 16px;
+    
+}
+
+.checkbox input {
+    position: absolute;
+    width: 0;
+    left: 50px;
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox .checkmark {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 3px;
+    outline: 1px solid #acacac;
+    transition: all 0.2s ease;
+}
+
+.checkbox:hover .checkmark {
+    background: #f4f4f5;
+    transition: all 0.2s ease;
+}
+
+.checkbox input:checked ~.checkmark {
+    background: #4CB147;
+    outline: 1px solid #4CB147;
+}
+
+.checkbox input[type="radio"] ~ .checkmark {
+    border-radius: 50%;
+}
+
+.checkbox .checkmark::after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 50%;
+    top: 40%;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.checkbox input:checked~.checkmark::after {
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+
+
+
+.right-side{
+    display: flex;
+    position: relative;
+    margin-top: 16px;
+}
+
+
+ .right-side ul p{
+    width: 92px;
+    height: 46px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    text-align: center;
+    padding:5px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  
+}
+
+
+ .right-side ul li{
+    list-style: none;
+}
+
+
+.right-side ul li a{
+    text-decoration: none;
+    color: #252525;
+    border: 1px solid #EDF0F4;
+    padding: 5px 12px;
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    background-color: #EDF0F4;
+    cursor: pointer;
+    width: 92px;
+    height: 30px;
+    
+}
+
+
+.melumat button{
+    width: 495px;
+    height: 48px;
+    border: 1px solid #EDF0F4;
+    background-color: #4CB147;
+    border-radius: 8px;
+   margin: 16px 0px;
+   cursor: pointer;
+   color: #fff;
+    
+}
+
+
+
+.sagC-icon{
+    position: absolute;
+    top: 16%;
+    left: 27%;
+}
+
+.solC-icon{
+    position: absolute;
+    top: 16%;
+    right: 30%;
+}
+
+/* info section css code */

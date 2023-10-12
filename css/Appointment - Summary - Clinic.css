@@ -1,0 +1,257 @@
+
+
+@import url(../css/font.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* header css code */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+}
+
+header nav .x-icon{
+    cursor: pointer;
+}
+
+/* header css code */
+
+
+
+
+
+
+/* info section css code */
+
+
+
+.info{
+    background-color:#FBFBFC;
+    height: 1059px;
+}
+
+
+.info .umumi{
+    width: 556px;
+    height: 570px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 30%;
+}
+
+
+.umumi .basliq{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EDF0F4;
+    position: relative;
+}
+
+.umumi .basliq .shekil{
+    padding:24px 32px ;
+}
+
+.umumi .basliq .textler p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #848B98;
+}
+
+.umumi .basliq .textler h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+}
+
+
+
+.umumi h4{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 24px 32px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+}
+
+
+.umumi .basliq a:first-of-type{
+    padding: 5px 12px;
+    border: 1px solid #EDF0F4; 
+    border-radius: 7px;
+    background-color: #EDF0F4;
+    color: #252525;
+    text-decoration: none;
+    margin-left: 85px;
+}
+
+.umumi .basliq .info-a{
+    position: absolute;
+    top: 51%;
+    right: 35%;
+}
+
+
+.umumi .secimler{
+    padding: 32px;
+}
+
+
+
+
+.umumi .secimler p img{
+    padding: 0px 5px;
+}
+
+.umumi .secimler .birinci{
+    width: 492px;
+    height: 56px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    background: #FBFBFC;
+    margin-top: 8px;
+}
+
+
+form .form-group{
+    display: flex;
+    align-items: center;
+    margin: 8px 0px;
+}
+
+
+
+form .form-group input{
+    width: 245px;
+    height: 56px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #EDF0F4;
+    background: #FBFBFC;
+}
+
+
+
+.umumi .gorush {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #EDF0F4;
+    padding: 12px 24px;
+    margin-top: 8px;
+    border-radius: 7px;
+    width: 492px;
+    height: 56px;
+    background: #FBFBFC;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    position: relative;
+}
+
+
+.umumi .gorush::after{
+    content: 'AZN';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 24%;
+    right: 16%;
+    color: #848B98;
+}
+
+.umumi .gorush:nth-child(2){
+    font-size: 20px;
+    line-height: 28px;
+    color: #273142;
+    font-weight: 400;
+    font-family: 'HRMedium';
+}
+
+.secimler button{
+    padding: 12px 85px;
+    border-radius: 8px;
+    background-color: #4CB147;
+    width: 492px;
+    height: 48px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #fff;
+    cursor: pointer;
+}
+
+
+ .contact{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'HRMedium';
+}
+
+ .contact a{
+    margin-top: 8px;
+    text-decoration: none;
+    color: #4CB147;
+}
+
+.contact .icons a{
+    padding: 24px 12px;
+    margin-top: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+.sagC-icon{
+    position: absolute;
+    top: 16%;
+    left: 26%;
+    cursor: pointer;
+
+
+}
+
+
+.solC-icon{
+    position: absolute;
+    top: 16%;
+    right: 29%;
+    cursor: pointer;
+
+}
+
+/* info section css code */
+
+
