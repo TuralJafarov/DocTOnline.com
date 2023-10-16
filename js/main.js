@@ -1,25 +1,21 @@
 
-$('.owl-birinci').owlCarousel({
- loop:true,
- margin:10,
- nav:true,
-//  autoplay:true,
-//  autoplayTimeout:5000,
-// autoplayHoverPause:true,
-navText:["<img src='../image/next.png'>","<img src='../image/next.png'>"],
+$('.owl-first').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText:["<img src='../image/next.png'>","<img src='../image/next.png'>"],
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
-            items:1
+            items:2
         }
     }
 });
-
 
 
 
