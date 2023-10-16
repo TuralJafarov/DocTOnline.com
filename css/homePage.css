@@ -402,25 +402,25 @@ form h1{
    right: 1%;
 }
 
-.owl-nav .owl-prev{
+.owl-first .owl-nav .owl-prev{
  position: absolute;
  top: 50%;
- left: -2%;
+ left:-2%;
 }
-
-
-
-
 
 
 
 @media(max-width:576px){
     .box-item{
-        width: 328px;
+        width: 420px;
         height: 200px;
         margin: 0 auto;
         margin-top: 50px;
     }
+
+ .box-item .right-box{
+    width: 70%;
+ }
 
     .box-item .left-box h3{
         font-size: 14px;
@@ -497,15 +497,10 @@ form h1{
         background:#4CB147;
     }
 
+    .information .container{
+        width: 100%;
+    }
 }
-
-
-
-
-
-
-
-
 
 
  /** information-section html code */
@@ -843,7 +838,55 @@ form h1{
 }  
 
 
+
+@media(max-width:576px){
+    .popular-doctor .title h2 {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'HRMedium';
+        letter-spacing: -0.15px ;     
+    }
+
+
+    .popular-doctor .title a{
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+    }
+    
+
+    .popular-doctor .owl-list .doctors .inner1{
+        margin: 0 auto;
+    }
+    
+    .owl-list .owl-nav{
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* *popular-doctor css code */
+
+
+
+
+
 
 
 
