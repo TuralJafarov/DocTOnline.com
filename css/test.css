@@ -17,6 +17,9 @@
 
 
 
+/* *duzelish information section css code */
+
+/* 
 .box-item{
     margin-top: 50px;
     width: 556px;
@@ -124,11 +127,6 @@
 }
 
 
-
-
-
-
-
 @media(max-width:576px){
     .box-item{
         width: 328px;
@@ -212,4 +210,403 @@
         background:#4CB147;
     }
 
+} */
+
+/* *duzelish information section css code */
+
+
+
+
+
+
+
+
+
+
+
+/* *populyar-hekimler section css code */
+/* .popular-doctor{
+    margin-top: 56px;
 }
+
+.popular-doctor .title-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+
+.popular-doctor .title-text h4{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+    color: #101825;
+}
+
+
+.popular-doctor .title-text a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+    letter-spacing: -0.15px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    color: #101825;
+}
+
+.popular-doctor .title-text i{
+    margin-left: 7px;
+}
+
+.popular-doctor .title-text a:hover{
+    color: #4CB147;
+}
+
+.popular-doctor .doctors{
+    padding: 20px 0px;
+}
+
+
+
+.popular-doctor .doctors .inner1{
+    width: 360px;
+    height: 245px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    padding: 24px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    background: #fff;
+}
+
+
+.popular-doctor .doctors .inner1:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.popular-doctor .doctors .inner1 .inner-text{
+    display: flex;
+}
+
+
+.popular-doctor .doctors .inner1 .inner-text .left{
+    position: relative;
+}
+
+.popular-doctor .doctors .inner1 .inner-text .left .heart{
+  position: absolute;
+    left: -11%;
+    top: -8%;
+    width: 32px;
+    height: 32px;
+} 
+
+
+.popular-doctor .doctors .inner1 .inner-text .right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+
+
+.popular-doctor .doctors .inner1 .inner-text .right p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #848B98;
+}
+
+
+.popular-doctor .doctors .inner1 .inner-text .right p:last-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #B7BBC2;
+}
+
+
+
+
+.popular-doctor .doctors .inner1 .inner-text .right h2{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    color: #101825;
+    margin-top: -10px;
+}
+
+
+.popular-doctor .doctors .inner1 .inner-text .right .ph2::after{
+    content: '';
+    background-image: url(../icon/video.svg);
+    position: absolute;
+    top: 33%;
+    left: 106%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+
+.popular-doctor .doctors .inner1 .flat1{
+    margin-top:16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #273142;
+}
+
+.popular-doctor .doctors .inner1 .flat{
+    margin-top:16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #273142;
+}
+
+.popular-doctor .doctors .inner1 .flat span{
+    margin-left: 18px;
+}
+
+.popular-doctor .doctors .inner1 .flat .span1{
+    margin-left: 24px;
+}
+
+
+.popular-doctor .doctors .inner1 .flat1 span{
+    margin-left: 12px;
+}
+
+
+
+
+.popular-doctor .doctors .inner1 .flat2{
+    display: flex;
+    align-items: center;
+    margin-top:8px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #273142;
+}
+
+.popular-doctor .doctors .inner1 .flat1::after{
+  content: '';
+  width: 6px;
+  height: 6px;
+  background-image: url(../icon/dote.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 9%;
+  right: 45%;
+}
+
+.popular-doctor .doctors .inner1 .flat::after{
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-image: url(../icon/dote.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 9%;
+    right: 67%;
+  }
+  
+  
+
+
+.popular-doctor .doctors .inner1 .flat2 .start-icon{
+    margin-bottom: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.popular-doctor .doctors .inner1 .flat2 span{
+    display: inline-block;
+    color: #FFAD0D;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    padding: 0px 8px;
+}
+
+
+.popular-doctor .doctors .inner1 .wall{
+    border-bottom: 1px solid #EDF0F4;
+    width: 360px;
+    margin-left: -26px;
+}
+
+
+
+.doctors .inner1 ul{
+    margin-left: -45px;
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+
+.doctors .inner1 ul li  a::after{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/dote2.svg);
+    width: 5px;
+    height: 20px;
+    background-repeat: no-repeat;
+    top: 49%;
+    left: 36%;
+}
+
+
+
+.doctors .inner1 ul li  a::before{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/dote2.svg);
+    width: 5px;
+    height: 20px;
+    background-repeat: no-repeat;
+    top: 49%;
+    left: 59%;
+}
+
+
+.doctors .inner1 ul li  a{
+    display: inline-block;
+    text-decoration: none;
+    color: #B7BBC2;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 11px 13px;
+}
+
+
+.bottom-area{
+    margin-top: -30px;
+    position: relative;
+}
+
+
+
+.owl-list .owl-nav.disabled{
+    display: block;
+}
+
+
+
+.owl-nav .owl-prev{
+ position: absolute;
+ top: 45%;
+ left: -2%;
+}
+
+
+.owl-nav .owl-next{
+    position: absolute;
+    top: 45%;
+    right: 1%;
+    transform: rotate(180deg);
+}  
+
+
+
+
+
+@media(max-width:576px){
+   
+    .popular-doctor .doctors{
+      margin-left: 5px;
+    }
+
+    .popular-doctor .title-text h4{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'HRMedium';
+        color: #101825;
+        letter-spacing: -0.15px;
+    }
+
+    .popular-doctor .title-text a{
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+
+    }
+
+    .owl-list .owl-nav{
+        display: none;
+    }
+
+
+   
+.popular-doctor .doctors .inner1 .inner-text .right p:first-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    font-family: 'HRMedium';
+    color: #848B98;
+}
+
+
+.popular-doctor .doctors .inner1 .inner-text .right h2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: -0.15px;
+    font-family: 'HRMedium';
+    color: #101825;
+    margin-top: -10px;
+}
+
+
+.popular-doctor .doctors .inner1 .flat2{
+    letter-spacing: -0.25px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #273142;
+}
+
+.popular-doctor .doctors .inner1 .inner-text .right .ph2::after{
+    content: '';
+    background-image: url(../icon/video.svg);
+    position: absolute;
+    top: 30%;
+    left: 106%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+
+} */
+
+
+/* *populyar-hekimler section css code */
+
+
+
+

@@ -121,7 +121,7 @@ nav .right a{
     font-family: 'HRMedium';
 }
 
-/* header css code */
+/** header css code */
 
 
 
@@ -130,7 +130,7 @@ nav .right a{
 
 
 
-/* firstsection css code */
+/** firstsection css code */
 
 .firstSection{
     background-image: url(../image/axtaris-background.png);
@@ -293,6 +293,10 @@ form h1{
 
 
 /** firstSection css code */
+
+
+
+
 
 
 
@@ -521,61 +525,50 @@ form h1{
 
 /** popular doctor css code */
 
-.popular-doctor .title{
+.popular-doctor{
     margin-top: 56px;
+}
+
+.popular-doctor .title-text{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    margin-bottom: 24px;
 }
 
 
-.popular-doctor .title h2{
+.popular-doctor .title-text h4{
     font-size: 34px;
     line-height: 40px;
     font-weight: 500;
     font-family: 'HRMedium';
     color: #101825;
-    margin-left: 23px;
 }
 
 
-.popular-doctor .title a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color:#B7BBC2;
+.popular-doctor .title-text a{
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     font-family: 'HRMedium';
-    position: relative;
-    margin-right: 37px;
+    letter-spacing: -0.15px;
+    text-decoration: none;
     transition: all 0.3s linear;
+    cursor: pointer;
+    color: #101825;
 }
 
-.popular-doctor .title a i{
+.popular-doctor .title-text i{
     margin-left: 7px;
 }
 
-
-.popular-doctor .title a:hover{
+.popular-doctor .title-text a:hover{
     color: #4CB147;
-    cursor: pointer;
 }
-
-
-
 
 .popular-doctor .doctors{
-    margin-top: 56px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 8px  15px;
+    padding: 20px 0px;
 }
-
-
 
 
 
@@ -711,7 +704,6 @@ form h1{
     font-weight: 400;
     font-family: 'HRRegular';
     color: #273142;
-  
 }
 
 .popular-doctor .doctors .inner1 .flat1::after{
@@ -805,8 +797,6 @@ form h1{
     line-height: 20px;
     font-weight: 400;
     padding: 11px 13px;
-   
-     
 }
 
 
@@ -826,58 +816,163 @@ form h1{
 .owl-nav .owl-prev{
  position: absolute;
  top: 45%;
- left: 0%;
+ left: -2%;
 }
 
 
 .owl-nav .owl-next{
     position: absolute;
     top: 45%;
-    right: 0%;
+    right: 1%;
     transform: rotate(180deg);
 }  
 
 
 
+
 @media(max-width:576px){
-    .popular-doctor .title h2 {
+    
+    .popular-doctor .container{
+        width: 100%;
+    }
+
+   .popular-doctor{
+    margin-top: 48px;
+   }
+
+    .popular-doctor .doctors{
+      margin-left: 5px;
+     
+    }
+
+    .popular-doctor .title-text h4{
         font-size: 20px;
         line-height: 28px;
         font-weight: 500;
         font-family: 'HRMedium';
-        letter-spacing: -0.15px ;     
+        color: #101825;
+        letter-spacing: -0.15px;
     }
 
-
-    .popular-doctor .title a{
+    .popular-doctor .title-text a{
         font-size: 12px;
         line-height: 16px;
         font-weight: 400;
         font-family: 'HRRegular';
-    }
-    
 
-    .popular-doctor .owl-list .doctors .inner1{
-        margin: 0 auto;
     }
-    
+
     .owl-list .owl-nav{
         display: none;
     }
 
-
-
-
+    .popular-doctor .doctors .inner1{
+        width: 400px;
+        height: 225px;
+    }
+   
+.popular-doctor .doctors .inner1 .inner-text .right p:first-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    font-family: 'HRMedium';
+    color: #848B98;
 }
 
 
+.popular-doctor .doctors .inner1 .inner-text .right h2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: -0.15px;
+    font-family: 'HRMedium';
+    color: #101825;
+    margin-top: -10px;
+}
 
 
+.popular-doctor .doctors .inner1 .flat2{
+    letter-spacing: -0.25px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #273142;
+}
+
+.popular-doctor .doctors .inner1 .inner-text .right .ph2::after{
+    content: '';
+    background-image: url(../icon/video.svg);
+    position: absolute;
+    top: 30%;
+    left: 106%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
 
 
+.popular-doctor .doctors .inner1 .flat1::after{
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-image: url(../icon/dote.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 9%;
+    right: 51%;
+  }
+  
+  .popular-doctor .doctors .inner1 .flat::after{
+      content: '';
+      width: 6px;
+      height: 6px;
+      background-image: url(../icon/dote.svg);
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 9%;
+      right: 70%;
+    }
 
+    .doctors .inner1 ul li  a{
+        display: inline-block;
+        text-decoration: none;
+        color: #B7BBC2;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        
+    }
 
+    .doctors .inner1 .bottom-area .wall{
+        width: 400px;
+    }
+    
+    .doctors .inner1 ul li  a::after{
+        content: '';
+        position: absolute;
+        background-image: url(../icon/dote2.svg);
+        width: 5px;
+        height: 20px;
+        background-repeat: no-repeat;
+        top: 49%;
+        left: 32%;
+    }
+    
+    
+    .doctors .inner1 ul li  a::before{
+        content: '';
+        position: absolute;
+        background-image: url(../icon/dote2.svg);
+        width: 5px;
+        height: 20px;
+        background-repeat: no-repeat;
+        top: 49%;
+        left: 52%;
+    }
 
+}
 
 
 
@@ -895,7 +990,7 @@ form h1{
 
 /* *new-doctors css code */
 
-.doctors{
+/* .doctors{
     padding: 20px 10px;
 }
 
@@ -1119,7 +1214,7 @@ form h1{
     transform: rotate(180deg);
     cursor: pointer;
 }  
-  
+   */
 /** new-doctors css code */
 
 
@@ -1128,10 +1223,10 @@ form h1{
 
 
 
-/* category section css code */
+/** category section css code */
 
 
-.category{
+/* .category{
     margin-top: 70px;
     background: #fff;
 }
@@ -1179,17 +1274,19 @@ form h1{
     width: 80px;
     height: 80px;
     object-fit: cover;
-}
+} */
 
-/* category section css code */
-
-
+/** category section css code */
 
 
 
-/* qosul section css code */
 
 
+
+
+/** qosul section css code */
+
+/* 
 .qosul{
     margin-top: 60px; 
     padding: 20px;
@@ -1246,20 +1343,20 @@ form h1{
 .qosul .grid-container .item:hover{
     box-shadow: 0px 0px 15px rgba(0,0,0, 0.4); 
     cursor: pointer;
-}
+} */
 
 
-/* qosul section css code */
-
-
-
+/** qosul section css code */
 
 
 
 
-/*footer css code */
 
 
+
+/**footer css code */
+
+/* 
 footer{
     margin-top: 120px;
     background-color: #101825;
@@ -1354,4 +1451,4 @@ footer{
     display: inline-block;
     padding: 15px;
 }
- 
+  */
