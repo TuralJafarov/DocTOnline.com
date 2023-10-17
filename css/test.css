@@ -225,7 +225,8 @@
 
 
 /* *populyar-hekimler section css code */
-/* .popular-doctor{
+
+ /* .popular-doctor{
     margin-top: 56px;
 }
 
@@ -962,3 +963,197 @@
 
 
 /*  *new-doctors section html code  */
+
+
+
+
+
+/* *category section html code */
+
+/* body{
+    background: #FCFCFD;
+}
+
+ .category{
+    margin-top: 70px;
+    background: #fff;
+    padding: 56px 0px;
+
+}
+
+.category h3{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #101825;
+    font-family: 'HRMedium';
+    font-weight: 500;
+
+}
+
+
+.category .boxes{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+ 
+}
+
+
+.category .boxes .box1{
+    width: 114px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category .boxes .box1 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'HRMedium';
+    font-weight: 500;
+    margin-top: 12px;
+    color: #101825;
+}
+
+
+.category .boxes .box1 img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+} 
+
+
+
+@media(max-width:576px){
+    .owl-category .boxes .box1{
+       margin: 0px 70px; 
+    }
+   
+} */
+
+/* *category section css code */
+
+
+
+
+
+
+
+/* *qosul section css code */
+
+/* 
+.qosul{
+    margin-top: 60px; 
+    padding: 20px;
+}
+
+
+.qosul h2{
+    text-align: center;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+}
+
+
+.qosul .main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.qosul .main-section .left-main{
+    width: 458px;
+    height: 292px;
+    border-radius: 8px;
+    border: 1px solid #EDF0F4;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.qosul .main-section .left-main img{
+    max-width: 576px;
+    width: 100%;
+}
+
+.qosul .main-section .left-main .birinci{
+    padding:20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+    padding: 5px 20px;
+}
+
+
+.qosul .main-section  .left-main a{
+    color: #B7BBC2;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+    margin-top: 10px;
+    padding: 0px 20px;
+    color: #848B98;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.qosul .main-section  .left-main a:hover{
+    color: #4CB147;
+}
+
+.qosul .main-section .left-main:hover{
+    box-shadow: 0px 0px 15px rgba(0,0,0, 0.4); 
+    cursor: pointer;
+}
+
+
+@media(max-width:576px){
+    .qosul .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .qosul h2{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'HRMedium';
+        color:#101825 ;
+        margin-bottom: 17px;
+    }
+
+
+    .qosul .main-section .left-main .birinci{
+        padding:20px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        letter-spacing: -0.1px;
+        font-family: 'HRMedium';
+        padding: 5px 20px;
+    }
+    
+    .qosul .main-section  .left-main a{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        font-family: 'HRMedium';
+        letter-spacing: -0.1px;
+    
+    }
+    
+    .qosul .main-section .left-main{
+        margin-bottom: 15px;
+        width:328px;
+        height: 226px;
+    }
+} */
+
+/* *qosul section css code */

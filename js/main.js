@@ -64,7 +64,7 @@ $('.owl-new').owlCarousel({
 
       
 
-$('.owl-list3').owlCarousel({
+$('.owl-category').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -73,7 +73,7 @@ $('.owl-list3').owlCarousel({
                items:1
            },
            600:{
-               items:1
+               items:3
            },
            1000:{
                items:1
