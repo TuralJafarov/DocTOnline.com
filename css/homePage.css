@@ -990,11 +990,11 @@ form h1{
 
 /* *new-doctors css code */
 
-/* .doctors{
-    padding: 20px 10px;
+.new-doctors {
+    margin-top: 56px;
 }
 
-.new-doctors .title{
+.new-doctors .title-text{
     margin-top: 67px;
     display: flex;
     align-items: center;
@@ -1002,36 +1002,40 @@ form h1{
 }
 
 
-.new-doctors .title h2{
+.new-doctors  .title-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+
+.new-doctors  .title-text h4{
     font-size: 34px;
     line-height: 40px;
     font-weight: 500;
     font-family: 'HRMedium';
     color: #101825;
-    margin-left: 17px;
 }
 
 
-.new-doctors .title a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color:#B7BBC2;
+.new-doctors  .title-text a{
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     font-family: 'HRMedium';
-    position: relative;
-    margin-right: 37px;
+    letter-spacing: -0.15px;
+    text-decoration: none;
     transition: all 0.3s linear;
+    cursor: pointer;
+    color: #101825;
 }
 
-
-.new-doctors .title a i{
-    margin-left: 8px;
+.new-doctors  .title-text i{
+    margin-left: 7px;
 }
 
-.new-doctors .title a:hover{
+.new-doctors .title-text a:hover{
     color: #4CB147;
 }
 
@@ -1044,6 +1048,8 @@ form h1{
     justify-content: space-between;
     margin-top: 56px;
     position: relative;
+    padding: 20px 0px;
+
 }
 
 .new-doctors .doctors .inner1{
@@ -1152,10 +1158,10 @@ form h1{
 
 
 .new-doctors  .inner1 ul{
-
     display: flex;
     list-style: none;
     position: relative;
+    margin-left: -45px;
 }
 
 .new-doctors  .inner1 ul li  a::after{
@@ -1166,7 +1172,7 @@ form h1{
     height: 20px;
     background-repeat: no-repeat;
     top: 49%;
-    left: 36%;
+    left: 34%;
 }
 
 
@@ -1179,7 +1185,7 @@ form h1{
     height: 20px;
     background-repeat: no-repeat;
     top: 49%;
-    left: 59%;
+    left: 55%;
 }
 
 .new-doctors  .inner1 ul li  a{
@@ -1189,32 +1195,147 @@ form h1{
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
+   padding: 10px;
+
 } 
 
 
 
-.owl-list2 .owl-nav.disabled{
+.owl-new .owl-nav.disabled{
     display: block;
 }
 
-
-
-.owl-nav .owl-prev{
+ .owl-new .owl-nav .owl-prev{
  position: absolute;
  top: 50%;
- left: 0%;
+ left: -2%;
  cursor: pointer;
 }
 
 
-.owl-nav .owl-next{
+.owl-new .owl-nav .owl-next{
     position: absolute;
     top: 50%;
-    right: 0%;
+    right: 1%;
     transform: rotate(180deg);
     cursor: pointer;
 }  
-   */
+
+
+
+@media(max-width:576px){
+
+    .new-doctors .container{
+        width: 100%;
+    }
+
+    .new-doctors{
+    margin-top: 48px;
+   }
+
+   .new-doctors .doctors{
+      margin-left: 5px;
+     
+    }
+
+    .new-doctors.title-text h4{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'HRMedium';
+        color: #101825;
+        letter-spacing: -0.15px;
+    
+    }
+
+    .new-doctors .title-text a{
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+
+    }
+
+    .owl-new .owl-nav{
+        display: none;
+    }
+
+
+    .new-doctors .doctors .inner1{
+        width: 400px;
+        height: 200px;
+    }
+
+
+
+
+    .new-doctors .doctors .inner1 .inner-text .right p:first-child{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    font-family: 'HRMedium';
+    color: #848B98;
+}
+
+
+.new-doctors .doctors .inner1 .inner-text .right h2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: -0.15px;
+    font-family: 'HRMedium';
+    color: #101825;
+    margin-top: -10px;
+}
+
+
+.new-doctors .doctors .inner1 .flat2{
+    letter-spacing: -0.25px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #273142;
+}
+
+.new-doctors .doctors .inner1 .inner-text .right .ph2::before{
+    content: '';
+    background-image: url(../icon/video.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30%;
+    left: 109%;
+}
+
+.new-doctors  .inner1 ul li  a::after{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/dote2.svg);
+    width: 5px;
+    height: 20px;
+    background-repeat: no-repeat;
+    top: 49%;
+    left: 31%;
+}
+
+
+
+.new-doctors  .inner1 ul li  a::before{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/dote2.svg);
+    width: 5px;
+    height: 20px;
+    background-repeat: no-repeat;
+    top: 49%;
+    left: 50%;
+}
+
+} 
+  
 /** new-doctors css code */
 
 
