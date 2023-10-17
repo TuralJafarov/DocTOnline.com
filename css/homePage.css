@@ -1537,15 +1537,14 @@ form h1{
 /**footer css code */
 
 
-/* footer{
-    margin-top: 120px;
+footer{
+    margin-top: 50px;
     background-color: #101825;
 }
 
 .footer-content{
     display: flex;
 }
-
 
 
 .footer-content .left{
@@ -1565,8 +1564,6 @@ form h1{
 
 
 .footer-content .right {
-    padding: 40px;
-    display: flex;
     display: flex;
     padding: 40px 0px;
 }
@@ -1631,4 +1628,64 @@ form h1{
     display: inline-block;
     padding: 15px;
 }
- */
+ 
+
+
+@media(max-width:576px){
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-content .left{
+        padding: 0px;
+        margin-top: 8px;
+    }
+    .footer-content .left .groups{
+        margin-top: 23px;
+    }
+
+    .footer-content .right{
+        display: flex;
+        flex-direction: column;
+        padding: 0px auto;
+
+    }
+
+    .footer-content .right ul{
+       margin-left: -20px;
+    }
+
+    .footer-content .right ul p{
+        margin: 20px 0px;
+    }
+
+    .footer-bottom{
+        height: 70px;
+    }
+
+
+    .footer-bottom .umumi{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-bottom .umumi .left{
+        position: absolute;
+        bottom: 8%;
+        left: 5%; 
+    }
+    
+    .footer-bottom .umumi .right p{
+      padding: 15px 0px;
+    }
+
+}
