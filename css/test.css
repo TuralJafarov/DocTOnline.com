@@ -1856,6 +1856,11 @@ nav .right a{
 
 
 
+
+
+
+
+
 /** doctors-list section css code */
 
 .doctors-list{
@@ -1902,14 +1907,26 @@ nav .right a{
 .doctors-list .left-side  .text-hisse .basliq{
     color: #848B98;
     padding: 4px 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'HRMedium';
 }
 
 .doctors-list .left-side  .text-hisse h4{
     padding: 4px 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: 'HRMedium';
 }
 
 .doctors-list .left-side  .text-hisse p{
     padding: 4px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRRegular';
    
 }
 
@@ -1957,6 +1974,7 @@ nav .right a{
     padding: 6px;
     position: relative;
     margin-left: 5px;
+    background: #e07e7e;
 }
 
 .doctors-list .left-side .gorus .ikinci-gorus p{
@@ -2103,7 +2121,7 @@ nav .right a{
    line-height: 20px;
    font-family: 'HRRegular';
    letter-spacing: -0.25px;
-   font-weight: ;
+   font-weight: 500;
 }
 
 .qeydler .alt-xett{
@@ -2137,6 +2155,388 @@ nav .right a{
 
 
 
+.umumi-section .left-side .gorus-g{   
+ color: #fff;
+ display: flex;
+justify-content: center;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: -0.5px;
+font-weight: 500;
+font-family: 'HRMedium';
+padding: 10px 85px;
+background-color: #4CB147;
+border-radius: 8px;
+display: none;
+}
+
+
+.umumi-section .text-hisse .qyd{
+    display: none;
+}
+
+
+@media(max-width:576px){
+
+    .doctors-list .umumi-section{
+        padding: 0px;
+    }
+
+    .doctors-list .umumi-section .right-side{
+        display: none;
+    }
+
+    .doctors-list .umumi-section .slow-side{
+        display: none;
+    }
+
+    .doctors-list .umumi-section .slow-side .qeydler{
+        display: block;
+    }
+
+
+    
+    .doctors-list .umumi-section .left-side .shekil1{
+        width: 80px;
+        height: 80px;
+    }
+
+    .doctors-list .left-side  .text-hisse{
+        margin-left: 24px;
+     }
+     
+     .doctors-list .left-side  .text-hisse .basliq{
+         color: #848B98;
+         font-size: 20px;
+         line-height: 28px;
+         font-weight: 400;
+         font-family: 'HRMedium';
+     }
+     
+     .doctors-list .left-side  .text-hisse h4{
+         font-size: 16px;
+         line-height: 24px;
+         font-weight: 500;
+         font-family: 'HRMedium';
+     }
+     
+     .doctors-list .left-side  .text-hisse p{
+         font-size: 16px;
+         line-height: 24px;
+         font-weight: 400;
+         font-family: 'HRRegular';
+     }
+
+
+     .doctors-list .left-side  .text-hisse .basliq{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+        letter-spacing: -0.5px;
+     }
+
+
+     .doctors-list .left-side .gorus{
+        display: flex;
+        /* align-items: center; */
+     }
+
+
+     .doctors-list .left-side .gorus .birinci-gorus{
+        width: 140px;
+        height: 48px;
+        border: 1px solid #EDF0F4;
+        border-radius: 8px;
+        padding: 10px;
+        position: relative;
+        display: flex;
+       
+    
+    }
+    
+    .doctors-list .left-side .gorus .birinci-gorus p{
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+        margin-left: 5px;
+    }
+    .doctors-list .left-side .gorus .birinci-gorus .gorush-icon{
+        width: 20px;
+        height: 20px;
+    }
+
+
+    
+    .doctors-list .left-side .gorus .birinci-gorus .info-icon{
+       display: none;
+    }
+    
+    
+    
+    .doctors-list .left-side .gorus .ikinci-gorus{
+        width: 140px;
+        height: 48px;
+        border: 1px solid #D45A5A;
+        border-radius: 8px;
+        padding: 10px;
+        position: relative;
+        margin-left: 5px;
+        display: flex;
+        
+    }
+    
+    .doctors-list .left-side .gorus .ikinci-gorus p{
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+        margin-left: 5px;
+    }
+    
+    .doctors-list .left-side .gorus .ikinci-gorus .info-icon{
+       display: none;
+    }
+    
+    .doctors-list .left-side  .text-hisse .star-icon{
+        margin-bottom: 5px;
+    }
+
+
+    
+.umumi-section .left-side  .gorus-g{   
+    color: #fff;
+    display: flex;
+   justify-content: center;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: -0.5px;
+   font-weight: 500;
+   font-family: 'HRMedium';
+   background-color: #4CB147;
+   border-radius: 8px;
+   text-align: center;
+   margin: 16px auto;
+   outline: none;
+   border: none;
+   width: 280px;
+   height: 40px;
+   }
+   
+   .umumi-section .text-hisse .qyd{
+    display: block;
+    border: 1px solid #EDF0F4;
+    width: 280px;
+    height: 84px;
+    margin-top: 21px;
+    margin: 10px auto;
+}
+
+.umumi-section .text-hisse .qyd p{
+   font-size: 12px;
+   line-height: 20px;
+   font-family: 'HRRegular';
+   letter-spacing: -0.25px;
+   font-weight: 500;
+   text-align: center;
+}
+
+.umumi-section .text-hisse .qyd .alt-xt{
+  border: 1px solid #EDF0F4 ;
+  width: 280px;
+  margin-top: -10px;
+}
+
+
+.umumi-section .text-hisse .qyd .knc{
+    text-align: center;
+    color: #4CB147;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4CB147;
+    cursor: pointer;
+    letter-spacing: -0.1px;
+    text-decoration: none;
+}
+
+.umumi-section .text-hisse .qyd .knc img{
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+}
+
+
 /** doctors-list section css code */
 
 
+
+
+
+
+
+
+/**footer css code */
+
+
+footer{
+    margin-top: 50px;
+    background-color: #101825;
+}
+
+.footer-content{
+    display: flex;
+}
+
+
+.footer-content .left{
+    padding: 40px;
+}
+
+.footer-content .left .groups{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-content .left .groups img{
+   padding-right: 7px;
+}
+
+
+.footer-content .right {
+    display: flex;
+    padding: 40px 0px;
+}
+
+.footer-content .right ul{
+    list-style: none;
+    margin-left: 250px;
+}
+
+.footer-content .right ul li{
+   list-style: none;
+}
+
+.footer-content .right ul p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'HRMedium';
+}
+
+
+.footer-content .right ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 0;
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'HRMedium'
+}
+
+
+
+.footer-bottom{
+    background-color: rgba(16, 17, 22, 0.4);
+    padding: 0 20px;
+
+}
+
+
+.footer-bottom .umumi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+.footer-bottom .left ul{
+    display: flex;
+}
+
+
+.footer-bottom .left ul li{
+    list-style: none;
+    color: #fff;
+}
+
+.footer-bottom .left ul li a{
+    display: inline-block;
+    padding: 15px;
+}
+ 
+
+
+@media(max-width:576px){
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-content .left{
+        padding: 0px;
+        margin-top: 8px;
+    }
+    .footer-content .left .groups{
+        margin-top: 23px;
+    }
+
+    .footer-content .right{
+        display: flex;
+        flex-direction: column;
+        padding: 0px auto;
+
+    }
+
+    .footer-content .right ul{
+       margin-left: -20px;
+    }
+
+    .footer-content .right ul p{
+        margin: 20px 0px;
+    }
+
+    .footer-bottom .umumi .right p{
+        padding: 15px 0px;
+      }
+
+    .footer-bottom{
+        height: 70px;
+    }
+
+
+    .footer-bottom .umumi{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-bottom .umumi .left{
+        position: absolute;
+        bottom: 8%;
+        left: -6%; 
+
+    }
+
+
+}
