@@ -1622,6 +1622,7 @@ footer{
 
 .footer-bottom .left ul li{
     list-style: none;
+    color: #fff;
 }
 
 .footer-bottom .left ul li a{
@@ -1667,6 +1668,10 @@ footer{
         margin: 20px 0px;
     }
 
+    .footer-bottom .umumi .right p{
+        padding: 15px 0px;
+      }
+
     .footer-bottom{
         height: 70px;
     }
@@ -1682,10 +1687,9 @@ footer{
         position: absolute;
         bottom: 8%;
         left: 5%; 
+
     }
     
-    .footer-bottom .umumi .right p{
-      padding: 15px 0px;
-    }
+   
 
 }

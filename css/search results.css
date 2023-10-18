@@ -75,6 +75,41 @@ nav .right a{
     color: #fff;
 }
 
+@media(max-width:576px){
+    header .right select{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    nav .left a img{
+        width: 121px;
+        height: 32px;
+    }
+
+    header .right a:nth-child(2){
+        display: none;
+    }
+
+    .right a:nth-child(3){
+        background-color: #4CB147;
+        color: #fff;
+        width: 86px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: size 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+    }
+
+
+}
+
 /* header css code */
 
 
@@ -401,9 +436,6 @@ nav .right a{
     top: 0%;
     left: 22%;
 }
-
-
-
 
 /* search section css code */
 
