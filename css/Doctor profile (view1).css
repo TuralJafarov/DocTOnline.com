@@ -19,6 +19,11 @@
     margin: 0 auto;
 }
 
+header{
+    background: #fff;
+}
+
+
 
 nav{
     display: flex;
@@ -45,13 +50,27 @@ nav .left img{
     border-radius: 8px;
 }
 
+@media(max-width:576px){
+    header .right select{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    nav .left a img{
+        width: 121px;
+        height: 32px;
+    }
+
+}
 
 
 nav .right a{
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-weight: 500;
     font-family: 'HRMedium';
     border: 1px solid #eaeaea;
     border-radius: 8px;
@@ -63,15 +82,41 @@ nav .right a{
     text-align: center;
 }
 
+
+
 .right a:nth-child(2){
     color: #252525;
 }
 
+@media(max-width:576px){
+    header .right a:nth-child(2){
+        display: none;
+    }
+
+    .right a:nth-child(3){
+        background-color: #4CB147;
+        color: #fff;
+        width: 86px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: size 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+    }
+}
+
+
 .right a:nth-child(3){
     background-color: #4CB147;
     color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'HRMedium';
 }
-
 /* header css code */
 
 
