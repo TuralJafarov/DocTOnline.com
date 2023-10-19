@@ -2797,6 +2797,14 @@ nav .right a{
     display: none;
 }
 
+.umumi-section .btnn{
+    display: none;
+}
+
+
+
+
+
 
 
 
@@ -2804,7 +2812,7 @@ nav .right a{
 @media(max-width:576px){
 
       .doctors-list{
-        height: 300px;
+        height: 320px;
       }
 
       
@@ -2914,9 +2922,6 @@ nav .right a{
 }
 
 
-
-
-
      .umumi-section  .gorus{
         display: flex;
         margin-left: 40px;
@@ -2931,11 +2936,20 @@ nav .right a{
         height: 48px;
         border: 1px solid #EDF0F4;
         border-radius: 8px;
-        padding: 10px;
+        padding: 15px;
         position: relative;
         display: flex;
-       
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s linear;
     }
+
+    .doctors-list  .gorus .birinci-gorus:hover{
+        box-shadow: 0px 0px 15px rgba(0, 0,0, 0.4);
+    }
+
+
+
     
     .doctors-list  .gorus .birinci-gorus p{
         font-size: 12px;
@@ -2945,8 +2959,10 @@ nav .right a{
         margin-left: 5px;
     }
     .doctors-list .gorus .birinci-gorus .gorush-icon{
-        width: 20px;
-        height: 20px;
+        width: 32px;
+        margin-top: -10px;
+        height: 32px;
+       
     }
 
     .doctors-list .gorus .birinci-gorus .info-icon{
@@ -2957,14 +2973,23 @@ nav .right a{
     .doctors-list  .gorus .ikinci-gorus{
         width: 160px;
         height: 48px;
-        border: 1px solid #D45A5A;
+        border: 1px solid #D45A5A ;
         border-radius: 8px;
-        padding: 10px;
-        position: relative;
-        margin-left: 5px;
-        display: flex;
+        margin-left: 10px;
         background: #FAECEC;
+        padding: 15px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s linear;
         
+    }
+    .doctors-list .gorus .ikinci-gorus .gorush-icon{
+        width: 32px;
+        margin-top: -10px;
+        height: 32px;
+       
     }
     
     .doctors-list .gorus .ikinci-gorus p{
@@ -2979,16 +3004,36 @@ nav .right a{
     .doctors-list  .gorus .ikinci-gorus .info-icon{
        display: none;
     }
+
+
+
+    .doctors-list  .gorus .ikinci-gorus:hover{
+        box-shadow: 0px 0px 15px rgba(0, 0,0, 0.4);
+    }
+
+
+
+
+  .umumi-section .btnn{
+    display: flex;
+    margin-top: 16px;
+    border: 1px solid #4CB147 ;
+    width: 328px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 40px;
+    padding: ;
+    text-align: center;
+    justify-content: center;
+    background: #4CB147;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 0px;
+
+  }
+
+
 }
-
-
-
-
-
-
-
-
-
 
 
 /* doctors-list  css code */
