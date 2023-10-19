@@ -19,10 +19,11 @@ body{
     width: 80%;
     margin: 0 auto;
 }
-
 header{
-    background-color: #fff;
+    background: #fff;
 }
+
+
 
 nav{
     display: flex;
@@ -49,6 +50,21 @@ nav .left img{
     border-radius: 8px;
 }
 
+@media(max-width:576px){
+    header .right select{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    nav .left a img{
+        width: 121px;
+        height: 32px;
+    }
+
+}
 
 
 nav .right a{
@@ -66,29 +82,13 @@ nav .right a{
     text-align: center;
 }
 
+
+
 .right a:nth-child(2){
     color: #252525;
 }
 
-.right a:nth-child(3){
-    background-color: #4CB147;
-    color: #fff;
-}
-
 @media(max-width:576px){
-    header .right select{
-        display: none;
-    }
-
-    .container{
-        width: 100%;
-    }
-
-    nav .left a img{
-        width: 121px;
-        height: 32px;
-    }
-
     header .right a:nth-child(2){
         display: none;
     }
@@ -106,8 +106,16 @@ nav .right a{
         font-weight: 400;
         font-family: 'HRRegular';
     }
+}
 
 
+.right a:nth-child(3){
+    background-color: #4CB147;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'HRMedium';
 }
 
 /* header css code */
@@ -115,11 +123,7 @@ nav .right a{
 
 
 
-
-
-
-
-/* search section css code */
+/** search section css code */
 
 .search{
     width: 100%;
@@ -251,15 +255,6 @@ nav .right a{
     background-color:#4CB147;
   }
 
-
-
-
-
-
-
-
-
-
 /* 
 .search .bottom-hisse #secim{
     width: 240px;
@@ -279,6 +274,7 @@ nav .right a{
     display: flex;
     align-items: center;
     padding: 0px 15px;
+    margin-left: 8px;
 }
 
 .search .bottom-hisse .video .video-icon{
@@ -437,7 +433,101 @@ nav .right a{
     left: 22%;
 }
 
-/* search section css code */
+.search .form-group p{
+    display: none;
+}
+
+
+@media(max-width:576px){
+ 
+    .search{
+        height: auto;
+    }
+
+
+    .search .umumi-video{
+        display: none;
+    }
+
+    .search .odeme{
+        display: none;
+    }
+
+
+    .search .bottom-hisse{
+        display: none;
+    }
+  
+    .search h1{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'HRMedium';
+        letter-spacing: -0.15px;
+        color: #101825;
+    }
+
+    .search .form-group{
+        position: relative;
+    }
+
+    .search .form-group #axtaris{
+        width: 400px;
+        height: 44px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+
+    .search form .form-group .searc-icon{
+        position: absolute;
+        top: 13%;
+        left: 2%;
+    }
+
+    .search .form-group .scd{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'HRMedium';
+        letter-spacing: -0.15px;
+        color: #101825;
+        margin-bottom: 24px;
+        color: #B7BBC2;
+    }
+
+    .search .form-group .scd img{
+        width: 8px;
+        height: 8px;
+    }
+
+    .search .form-group p{
+        display: flex;
+        position: absolute;
+        color: #4CB147;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        font-family: 'HRMedium';
+        letter-spacing: -0.15px;
+        top: -25%;
+        right: 3%;
+
+    }
+
+    .search .form-group p::before{
+        content: '';
+        background-image: url(../icon/filterr.svg);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: -40%;
+        cursor: pointer;
+    }
+}
+/** search section css code */
+
+
 
 
 
@@ -727,7 +817,225 @@ nav .right a{
     cursor: pointer;
 }
 
+.umumi-section .left-side .gorus-g{   
+    color: #fff;
+    display: flex;
+   justify-content: center;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: -0.5px;
+   font-weight: 500;
+   font-family: 'HRMedium';
+   padding: 10px 85px;
+   background-color: #4CB147;
+   border-radius: 8px;
+   display: none;
+   }
+   
+   
+   .umumi-section .text-hisse .qyd{
+       display: none;
+   }
 
+
+   @media(max-width:576px){
+
+    .doctors-list .umumi-section{
+        padding: 0px;
+    }
+
+    .doctors-list .umumi-section .right-side{
+        display: none;
+    }
+
+    .doctors-list .umumi-section .slow-side{
+        display: none;
+    }
+
+    .doctors-list .umumi-section .slow-side .qeydler{
+        display: block;
+    }
+
+
+    
+    .doctors-list .umumi-section .left-side .shekil1{
+        width: 80px;
+        height: 80px;
+    }
+
+    .doctors-list .left-side  .text-hisse{
+        margin-left: 24px;
+     }
+     
+     .doctors-list .left-side  .text-hisse .basliq{
+         color: #848B98;
+         font-size: 20px;
+         line-height: 28px;
+         font-weight: 400;
+         font-family: 'HRMedium';
+     }
+     
+     .doctors-list .left-side  .text-hisse h4{
+         font-size: 16px;
+         line-height: 24px;
+         font-weight: 500;
+         font-family: 'HRMedium';
+     }
+     
+     .doctors-list .left-side  .text-hisse p{
+         font-size: 16px;
+         line-height: 24px;
+         font-weight: 400;
+         font-family: 'HRRegular';
+     }
+
+
+     .doctors-list .left-side  .text-hisse .basliq{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+        letter-spacing: -0.5px;
+     }
+
+
+     .doctors-list .left-side .gorus{
+        display: flex;
+        /* align-items: center; */
+     }
+
+
+     .doctors-list .left-side .gorus .birinci-gorus{
+        width: 140px;
+        height: 48px;
+        border: 1px solid #EDF0F4;
+        border-radius: 8px;
+        padding: 10px;
+        position: relative;
+        display: flex;
+       
+    
+    }
+    
+    .doctors-list .left-side .gorus .birinci-gorus p{
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+        margin-left: 5px;
+    }
+    .doctors-list .left-side .gorus .birinci-gorus .gorush-icon{
+        width: 20px;
+        height: 20px;
+    }
+
+
+    
+    .doctors-list .left-side .gorus .birinci-gorus .info-icon{
+       display: none;
+    }
+    
+    
+    
+    .doctors-list .left-side .gorus .ikinci-gorus{
+        width: 140px;
+        height: 48px;
+        border: 1px solid #D45A5A;
+        border-radius: 8px;
+        padding: 10px;
+        position: relative;
+        margin-left: 5px;
+        display: flex;
+        background: #FAECEC;
+        
+    }
+    
+    .doctors-list .left-side .gorus .ikinci-gorus p{
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'HRRegular';
+        margin-left: 5px;
+        
+    }
+    
+    .doctors-list .left-side .gorus .ikinci-gorus .info-icon{
+       display: none;
+    }
+    
+    .doctors-list .left-side  .text-hisse .star-icon{
+        margin-bottom: 5px;
+    }
+
+
+    
+.umumi-section .left-side  .gorus-g{   
+    color: #fff;
+    display: flex;
+   justify-content: center;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: -0.5px;
+   font-weight: 500;
+   font-family: 'HRMedium';
+   background-color: #4CB147;
+   border-radius: 8px;
+   text-align: center;
+   margin: 16px auto;
+   outline: none;
+   border: none;
+   width: 280px;
+   height: 40px;
+   }
+   
+   .umumi-section .text-hisse .qyd{
+    display: block;
+    border: 1px solid #EDF0F4;
+    width: 280px;
+    height: 84px;
+    margin-top: 21px;
+    margin: 10px auto;
+}
+
+.umumi-section .text-hisse .qyd p{
+   font-size: 12px;
+   line-height: 20px;
+   font-family: 'HRRegular';
+   letter-spacing: -0.25px;
+   font-weight: 500;
+   text-align: center;
+}
+
+.umumi-section .text-hisse .qyd .alt-xt{
+  border: 1px solid #EDF0F4 ;
+  width: 280px;
+  margin-top: -10px;
+}
+
+
+.umumi-section .text-hisse .qyd .knc{
+    text-align: center;
+    color: #4CB147;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4CB147;
+    cursor: pointer;
+    letter-spacing: -0.1px;
+    text-decoration: none;
+}
+
+.umumi-section .text-hisse .qyd .knc img{
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+}
+   
 
 /* doctors-list section css code */
 
@@ -772,7 +1080,18 @@ background-color: #4CB147;
     background-color: #4CB147;
 }
 
+
+@media(max-width:576px){
+    .karusel{
+        display: none;
+    }
+}
+
+
 /* karusel section css code */
+
+
+
 
 
 
@@ -841,8 +1160,6 @@ footer{
 
 
 
-
-
 .footer-bottom{
     background-color: rgba(16, 17, 22, 0.4);
     padding: 0 20px;
@@ -872,6 +1189,70 @@ footer{
     padding: 15px;
 }
  
+
+
+
+@media(max-width:576px){
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-content .left{
+        padding: 16px;
+        margin-top: 8px;
+    }
+    .footer-content .left .groups{
+        margin-top: 23px;
+    }
+
+    .footer-content .right{
+        display: flex;
+        flex-direction: column;
+        padding: 0px auto;
+
+    }
+
+    .footer-content .right ul{
+       margin-left: -20px;
+    }
+
+    .footer-content .right ul p{
+        margin: 20px 0px;
+    }
+
+    .footer-bottom .umumi .right p{
+        padding: 15px 0px;
+      }
+
+    .footer-bottom{
+        height: 50px;
+    }
+
+
+    .footer-bottom .umumi{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-bottom .umumi .left{
+        position: absolute;
+        bottom: 8%;
+        left: 0%; 
+        margin-bottom: -10px;
+    }
+
+
+}
+
 
 
 
