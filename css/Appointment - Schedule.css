@@ -53,6 +53,50 @@ nav .yazilar p:nth-child(2){
 
 
 
+ .yazi{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 16px;
+    border: 1px solid #EDF0F4;
+}
+
+.yazi .yazir{
+    margin-left:45px;
+}
+
+.yazi .yazir::before{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/bir-daire.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    left: 6%;
+    top: 32%;
+}
+
+ .yazi p:nth-child(1){
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #101825;
+    font-family: 'HRMedium';
+    letter-spacing: -0.1px;
+    padding-bottom: 5px;
+}
+
+ .yazi p:nth-child(2){
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #848B98;
+}
+
+ .yazi{
+    display: none;
+}
 
 .xs-icon{
     position: absolute;
@@ -74,7 +118,32 @@ header .xett .bir-daire{
 }
 
 
+@media(max-width:576px){
+    nav .yazilar{
+        display: none;
+    }
+    .xett{
+        display: none;
+    }
+
+    .yazi{
+        display: block;
+    }
+
+
+}
+
 /* header css code */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -129,8 +198,6 @@ header .xett .bir-daire{
     font-family: 'HRMedium';
 }
 
-
-
 .melumat{
     padding: 24px 32px;
 }
@@ -157,6 +224,7 @@ header .xett .bir-daire{
     justify-content: space-between;
     align-items: center;
     margin-left: 5px;
+    transition: all 0.3s linear;
 
 }
 
@@ -173,7 +241,7 @@ header .xett .bir-daire{
     width: 242px;
     height: 56px;
     border: 1px solid #F2FAF2;
-    background-color:#F2FAF2;
+    transition: all 0.3s linear;
     border-radius: 8px;
     padding: 6px;
     position: relative;
@@ -181,6 +249,19 @@ header .xett .bir-daire{
     justify-content: space-between;
     align-items: center;
 }
+
+.melumat .gorus .ikinci-gorus:hover{
+    background-color:#F2FAF2;
+    cursor: pointer;
+}
+
+
+.melumat .gorus .birinci-gorus:hover{
+    background-color: #faecec;
+    cursor: pointer;
+}
+
+
 
  .melumat .gorus .ikinci-gorus p{
     font-size: 14px;
@@ -283,8 +364,6 @@ header .xett .bir-daire{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-  
 }
 
 
@@ -307,6 +386,12 @@ header .xett .bir-daire{
     width: 92px;
     height: 30px;
     
+}
+
+
+.right-side ul li a:hover{
+    background-color: #4CB147;
+    cursor: pointer;
 }
 
 
@@ -334,6 +419,101 @@ header .xett .bir-daire{
     position: absolute;
     top: 16%;
     right: 30%;
+} 
+
+
+
+@media(max-width:576px){
+
+    .info{
+        height: auto;
+    }
+
+
+    .sagC-icon, .solC-icon{
+        display: none;
+    }
+
+    .umumi .basliq .textler p {
+        font-size: 14px;
+        line-height: 0px;
+        font-weight: 400;
+        font-family: 'HRMedium';
+        letter-spacing: -0.1px;
+        color: #4CB147;
+    }
+    
+    .umumi .basliq .textler h3{
+        margin-top: 12px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: 'HRMedium';
+        color: #000;
+        letter-spacing: -0.15px;
+    }
+
+    
+.info .umumi{
+    width: 475px;
+    height: 715px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px;
 }
+
+
+ .melumat h3{
+    display: none;
+}
+
+
+.melumat .gorus .birinci-gorus{
+    width: 220px;
+    height: 48px;
+}
+
+.melumat .gorus .ikinci-gorus{
+    width: 220px;
+    height: 48px;
+}
+
+.umumi .basliq .shekil img{
+    width: 48px;
+    height: 48px;
+}
+
+.checkbox {
+    width: 420px;
+    height: 56px;
+}
+
+.right-side{
+    padding: 0px;
+}
+
+
+.melumat button{
+    display: none;
+}
+
+
+.right-side ul p{
+    width: 70px;
+    height: 46px;
+
+}
+
+.right-side ul li a{
+    width: 70px;
+    height: 30px;
+}
+
+
+}
+
 
 /* info section css code */
