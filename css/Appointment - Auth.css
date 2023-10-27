@@ -93,18 +93,124 @@ header .xett .ici-bos4{
 }
 
 
-
-
-
-
-
 .xs-icon{
     position: absolute;
     top: 23%;
     right: 2%;
 }
 
+
+
+
+.yazi{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 16px;
+    border: 1px solid #EDF0F4;
+}
+
+.yazi .yazir{
+    margin-left:40%;
+
+}
+
+.yazi .yazir::before{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/ici-yasil1.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    left: 6%;
+    top: 32%;
+}
+
+
+.yazi .yazir::after{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/ici-yasil2.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    left: 16%;
+    top: 32%;
+}
+
+ .yazi::after{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/ici-dolu3.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    left: 25%;
+    top: 32%;
+} 
+
+
+
+.yazi::before{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/ici-bos4.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    left: 33%;
+    top: 32%;
+} 
+
+ .yazi p:nth-child(1){
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #101825;
+    font-family: 'HRMedium';
+    letter-spacing: -0.1px;
+    padding-bottom: 5px;
+}
+
+ .yazi p:nth-child(2){
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #848B98;
+}
+
+ .yazi{
+    display: none;
+}
+
+
+@media(max-width:576px){
+    nav .yazilar{
+        display: none;
+    }
+    .xett{
+        display: none;
+    }
+
+    .yazi{
+        display: block;
+    }
+
+}
+
 /* header css code */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -327,6 +433,91 @@ form .form-group p{
     cursor: pointer;
 
 }
+
+
+@media(max-width:576px){
+    .info{
+        height: auto;
+     
+    }
+     
+    .info .sagC-icon{
+        display: none;
+    }
+
+    .info .solC-icon{
+        display: none;
+    }
+
+
+    .info .umumi{
+        margin: 0px;
+        max-width: 576px;
+        width: 100%;
+    }
+ 
+     .shekil img{
+        width: 48px;
+        height: 48px;
+    }
+
+    .basliq .textler{
+        padding: 0px;
+    }
+
+     .basliq .textler{
+        background: #FCFCFD;
+    }
+    
+    .basliq{
+        padding: 0px;
+    }
+
+    .basliq img{
+        width: 48px;
+        height: 48px;
+    }
+    .umumi .basliq .textler1 p{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: 'HRMedium';
+        color:#4CB147;
+    }
+
+    .umumi .basliq .textler1 h3{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: 'HRMedium';
+        letter-spacing: -0.15px;
+    }
+
+
+    .umumi h4{
+        display: none;
+    }
+
+    form{
+        margin-top: 20px;
+    }
+
+
+
+    form .form-group input{
+        width: 440px;
+    }
+
+    form .group-2 .right input{
+        width: 335px;
+        height: 48px;
+        margin-left: 10px;
+    }
+    
+
+
+}
+
 
 /* info section css code */
 
