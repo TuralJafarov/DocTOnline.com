@@ -251,6 +251,116 @@ form .form-group input{
 
 }
 
+
+@media(max-width:576px){
+    .info{
+        height: auto;
+    }
+     
+    .info .sagC-icon{
+        display: none;
+    }
+
+    .info .solC-icon{
+        display: none;
+    }
+
+
+    .info .umumi{
+        margin: 0px;
+        max-width: 576px;
+        width: 100%;
+    }
+ 
+     .shekil img{
+        width: 48px;
+        height: 48px;
+    }
+
+    .basliq .textler{
+        padding: 0px;
+    }
+
+     .basliq .textler{
+        background: #FCFCFD;
+    }
+    
+    .basliq{
+        padding: 0px;
+    }
+
+    .umumi .basliq .textler p{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: 'HRMedium';
+        color:#4CB147;
+    }
+
+    .umumi .basliq .textler h3{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: 'HRMedium';
+        letter-spacing: -0.15px;
+    }
+
+    .umumi .basliq .info-a{
+       display: none;
+    }
+
+    .umumi .basliq a:first-of-type{
+        margin-left: 20%;
+    }
+
+    
+    .umumi .secimler{
+        padding: 20px;
+    }
+
+
+    .secimler .form-group{
+        width: 445px;
+    }
+    
+    .secimler button{
+        width: 440px;
+    }
+
+    .secimler {
+        width: 440px;
+    }
+
+    .umumi .secimler .birinci {
+        width: 443px;
+    }
+
+    .umumi .gorush {
+    width: 442px;
+    }
+
+    .umumi .gorush::after {
+        content: 'AZN';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 24%;
+        right: 17%;
+        color: #848B98;
+    }
+
+    .frm{
+        width: 443px;
+    }
+
+}
+
+
+
+
+
+
+
 /* info section css code */
 
 
