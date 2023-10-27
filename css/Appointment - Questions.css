@@ -76,7 +76,98 @@ header .xett .ici-bos2{
     right: 2%;
 }
 
+
+.yazi{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 16px;
+    border: 1px solid #EDF0F4;
+}
+
+.yazi .yazir{
+    margin-left:25%;
+
+}
+
+.yazi .yazir::before{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/ici-yasil1.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    left: 6%;
+    top: 32%;
+}
+
+
+.yazi .yazir::after{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/ici-bos2.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    left: 16%;
+    top: 32%;
+}
+
+
+ .yazi p:nth-child(1){
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #101825;
+    font-family: 'HRMedium';
+    letter-spacing: -0.1px;
+    padding-bottom: 5px;
+}
+
+ .yazi p:nth-child(2){
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'HRRegular';
+    color: #848B98;
+}
+
+ .yazi{
+    display: none;
+}
+
+
+
+@media(max-width:576px){
+    nav .yazilar{
+        display: none;
+    }
+    .xett{
+        display: none;
+    }
+
+    .yazi{
+        display: block;
+    }
+
+}
+
 /* header css code */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -205,5 +296,71 @@ header .xett .ici-bos2{
     cursor: pointer;
 
 }
+
+@media(max-width:576px){
+
+    .info{
+        height: auto;
+    }
+
+   
+    .info .sagC-icon{
+        display: none;
+    }
+    .info .solC-icon{
+        display: none;
+    }
+
+
+    .info .umumi{
+        margin-left: 0px;
+        max-width: 576px;
+        margin-top: 0px;
+    }
+
+
+    .info .umumi img{
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    .umumi .basliq .textler p{
+        font-size: 14px;
+        line-height: 0px;
+        font-weight: 400;
+        font-family: 'HRMedium';
+        letter-spacing: -0.1px;
+        color: #4CB147;
+    }
+
+    .umumi .basliq .textler h3{
+        margin-top: 12px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: 'HRMedium';
+        color: #000;
+        letter-spacing: -0.15px;
+    }
+
+    .umumi .suallar h4{
+        margin-top: 0px;
+        display: none;
+    }
+    .umumi .suallar .form-group #secim{
+        width: 400px;
+        height: 40px;
+    }
+
+    .umumi .suallar .form-group button{
+        width: 400px;
+        height: 40px;
+       
+    }
+
+}
+
 
 /* info section css code */
