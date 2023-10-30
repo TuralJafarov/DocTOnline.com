@@ -614,8 +614,15 @@ nav .right a{
     border-radius: 8px;
     padding: 6px;
     position: relative;
-
+    transition: all 0.3s linear;
 }
+
+.doctors-list .left-side .gorus .birinci-gorus:hover{
+    background: #F2FAF2;
+    cursor: pointer;
+}
+
+
 
 .doctors-list .left-side .gorus .birinci-gorus p{
     font-size: 14px;
@@ -639,7 +646,15 @@ nav .right a{
     padding: 6px;
     position: relative;
     margin-left: 5px;
+    transition: all 0.3s linear;
 }
+
+.doctors-list .left-side .gorus .ikinci-gorus:hover{
+    background: #D45A5A;
+    cursor: pointer;
+}
+
+
 
 .doctors-list .left-side .gorus .ikinci-gorus p{
     font-size: 14px;
