@@ -1397,6 +1397,13 @@ form h1{
     object-fit: cover;
 } 
 
+
+@media(max-width:576px){
+    .item .boxes .box1{
+       padding: 0px 10px;
+    }
+}
+
 /** category section css code */
 
 
@@ -1689,6 +1696,8 @@ footer{
         left: 5%;
     }
 
+
+  
  
 
   
