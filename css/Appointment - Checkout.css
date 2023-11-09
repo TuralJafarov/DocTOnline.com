@@ -273,6 +273,14 @@ header .xett .ici-bos3{
     margin-left: 17px;
 }
 
+.form-group span{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'HRMedium';
+    letter-spacing: -0.15px;
+}
+
 form button{
     width: 492px;
     height: 48px;
