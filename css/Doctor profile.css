@@ -428,6 +428,7 @@ nav .right a{
 
     .doctors-list  .gorus .birinci-gorus:hover{
         box-shadow: 0px 0px 15px rgba(0, 0,0, 0.4);
+        border: 1px solid #4CB147;
     }
 
 
@@ -491,6 +492,7 @@ nav .right a{
 
     .doctors-list  .gorus .ikinci-gorus:hover{
         box-shadow: 0px 0px 15px rgba(0, 0,0, 0.4);
+        border: 1px solid #4CB147;
     }
 
 

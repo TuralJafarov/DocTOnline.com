@@ -98,6 +98,7 @@ header nav .x-icon{
     color: #252525;
     text-decoration: none;
     margin-left: 85px;
+    font-family: 'HRMedium';
 }
 
 .umumi .basliq .info-a{
@@ -150,6 +151,7 @@ form .form-group input{
     outline: none;
     border: 1px solid #EDF0F4;
     background: #FBFBFC;
+    padding: 0 25px;
 }
 
 
@@ -181,6 +183,7 @@ form .form-group input{
     top: 24%;
     right: 16%;
     color: #848B98;
+    font-family: 'HRMedium';
 }
 
 .umumi .gorush:nth-child(2){
@@ -204,6 +207,8 @@ form .form-group input{
     font-family: 'HRMedium';
     color: #fff;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 
@@ -223,6 +228,7 @@ form .form-group input{
     margin-top: 8px;
     text-decoration: none;
     color: #4CB147;
+    font-family: 'HRMedium';
 }
 
 .contact .icons a{
@@ -230,6 +236,18 @@ form .form-group input{
     margin-top: 8px;
     cursor: pointer;
     display: inline-block;
+    font-family: 'HRMedium';
+   
+}
+
+
+.icons a img{
+    transition: all 0.3s linear;
+}
+
+.contact .icons a img:hover{
+  box-shadow: 0px  0px 15px rgba(0, 0, 0, 0.4) ;
+  border-radius: 100%;
 }
 
 

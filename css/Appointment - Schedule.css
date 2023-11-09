@@ -202,6 +202,15 @@ header .xett .bir-daire{
     padding: 24px 32px;
 }
 
+.melumat h3{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "HRMedium";
+    letter-spacing: -0.15px;
+    color: #101825;
+}
+
 
 
 
@@ -248,17 +257,20 @@ header .xett .bir-daire{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'HRMedium';
 }
 
 .melumat .gorus .ikinci-gorus:hover{
     background-color:#F2FAF2;
     cursor: pointer;
+    border: 1px solid #4CB147;
 }
 
 
 .melumat .gorus .birinci-gorus:hover{
     background-color: #faecec;
     cursor: pointer;
+    border: 1px solid #4CB147;
 }
 
 
@@ -336,6 +348,7 @@ header .xett .bir-daire{
     transform: translate(-50%, -50%) rotate(45deg);
     opacity: 0;
     transition: all 0.2s ease;
+    
 }
 
 .checkbox input:checked~.checkmark::after {
@@ -364,6 +377,7 @@ header .xett .bir-daire{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'HRMedium';
 }
 
 
@@ -385,6 +399,7 @@ header .xett .bir-daire{
     cursor: pointer;
     width: 92px;
     height: 30px;
+    font-family: 'HRMedium';
     
 }
 
@@ -404,6 +419,7 @@ header .xett .bir-daire{
    margin: 16px 0px;
    cursor: pointer;
    color: #fff;
+   font-family: 'HRMedium';
     
 }
 
@@ -468,6 +484,10 @@ header .xett .bir-daire{
 
  .melumat h3{
     display: none;
+}
+
+.melumat{
+    width: auto;
 }
 
 
